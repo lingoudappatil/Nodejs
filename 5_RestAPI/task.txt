@@ -1,0 +1,11 @@
+//Rest API -- JSON 
+
+// GET/users - list the all users
+GET//user/1 --Get the user with id 1
+GET//user/2 --Get the user with id 2
+
+
+POST/users -- Create new user
+PATCH/use/1 -- Edit the user with id 1
+
+DELET/users/1 -- Delete the users with id 1
