@@ -1,22 +1,11 @@
-${Date.now()}:New request recieved
-${Date.now()}:New request recieved
-${Date.now()}:New request recieved
-${Date.now()}:New request recieved
-${Date.now()}:New request recieved
-${Date.now()}:New request recieved
-1710996808003: New request received
-1710996808140: New request received
-1710996900379: New request received
-1710996900525: New request received
-${Date.now()}:New request recieved
-${Date.now()}:New request recieved
-1710998075585: New request received
-1710998108668: New request received
-1710998224012: New request received
-1710999092313: New request received
-1710999223902: New request received
-1710999348442: New request received
-${Date.now()}:New request recieved
-${Date.now()}:New request recieved
-1711015754609: New request received
-1711707985718: New request received
+1716813968481: / Request Recieved
+1716813969635: /favicon.ico Request Recieved
+1716813992490: /about Request Recieved
+1716813992550: /favicon.ico Request Recieved
+1716814078740: /about Request Recieved
+1716814078799: /favicon.ico Request Recieved
+1716814149266: / Request Recieved
+1716814156482: /aout Request Recieved
+1716815053474: / Request Recieved
+1716815059247: /about Request Recieved
+1716815067717: /career Request Recieved
