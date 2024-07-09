@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 const url = require("url");
- 
+
 const myServer = http.createServer((req, res) => {
     if (req.url === '/favicon.ico') return res.end();
  
@@ -16,7 +16,8 @@ const myServer = http.createServer((req, res) => {
             return res.end("Internal Server Error");
         }
 
-        switch (myUrl.pathname) {
+        switch (myUrl.pathname)
+         {
             case '/':
                 res.end("Home Page");
                 break;
