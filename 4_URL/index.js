@@ -1,10 +1,11 @@
 const http = require("http");
 const url = require("url");
 
-let data = { message: "Hello, world!" ,
+let data = {
+             message: "Hello, world!" ,
              Name : "Lingouda" ,
-			 Place : "Bangalore"
-		  };
+	     Place : "Bangalore"
+	    };
 
 const myServer = http.createServer((req, res) => {
     if (req.url === '/favicon.ico') return res.end();
