@@ -5,7 +5,7 @@ const myServer =  http.createServer((req,res)=>
     const log = '${Date.now()}:New request recieved\n';
     fs.appendFile("log.txt",log,(err,data)=>
     {
-        switch(req.url)
+        switch(req.url) 
         {
             case '/': res.end("Home Page");
             break
