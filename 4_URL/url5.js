@@ -1,7 +1,7 @@
 const url = require('url');
 
 const baseUrl = 'https://www.example.com/path/';
-const relativeUrl = 'name?query=string';
+const relativeUrl = 'name?query=string'; 
 
 const resolvedUrl = url.resolve(baseUrl, relativeUrl);
 
