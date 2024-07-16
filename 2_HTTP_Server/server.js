@@ -1,6 +1,6 @@
 //creating http server by using http module
 const http = require("http");
-const myServer=http.createServer((req,res) =>
+const myServer=http.createServer((req,res) => 
 {
     console.log("New request");
     res.end("Hello from Server");
