@@ -9,7 +9,7 @@ const myServer =  http.createServer((req,res)=>
     const myUrl = url.parse(req.url,true);
     console.log(myUrl); 
     fs.appendFile("log1.txt",log,(err,data)=>
-    {
+    { 
         switch(myUrl.pathname) // corrected req.pathname to myUrl.pathname
         {
             case '/': 
